@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("assets/chad.jpg");
+  background-size: cover;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+.left {
+  display: inline-block;
+  margin: 0px auto;
+  position: absolute;
+  left: 40px;
+  top: 15px;
+  line-height: 10px;
+}
+.left img {
+  width: 85px;
+  margin: 0px auto;
+  filter: invert(0%);
+}
+.left div {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+.mid {
+  display: block;
+  width: 33%;
+  top: 20px;
+  margin: 20px auto;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+.right {
+  display: inline-block;
+  margin: 20px auto;
+  position: absolute;
+  top: 15px;
+  right: 40px;
+}
+.navbar {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 0px 27px;
+}
+.navbar li {
+  display: inline-block;
+  margin: 0px auto;
+  font-size: 20px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 20px 10px;
+}
+.navbar li a:hover,
+.navbar li a:active {
+  text-decoration: underline;
+  color: grey;
+}
+.btn {
+  margin: 1px 0px;
+  padding: 10px 20px;
+  color: white;
+  background-color: inherit;
+  border-radius: 20px;
+  font-size: inherit;
+  cursor: pointer;
+  border: none;
+}
+.btn:hover {
+  color: whitesmoke;
+  /* background-color: rgb(83, 83, 83); */
+  background-color: inherit;
+
+  border: 0px solid black;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.container {
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  margin: 45px 40px;
+  padding: 50px 0px;
+  width: 33%;
+  height: 400px;
+}
+.form-group input {
+  display: block;
+  margin: 10px auto;
+  padding: 1px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.container h1 {
+  text-align: center;
+  font-weight: bold;
+}
+.form-group button {
+  display: block;
+  margin: 1px auto;
+  border: 1px solid grey;
+}
